@@ -1,0 +1,151 @@
+{
+  "id": "e763d6d4-8a91-4c56-a383-45b1a54cedbf",
+  "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Kettle"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Wasserkocher"
+        ]
+      },
+      {
+        "key": "technical",
+        "value": [
+          "S3 A2"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerSwitch-59"
+  ],
+  "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
+  "unit_type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "PowerSwitch-59",
+    "pose": {
+      "translation": {
+        "x": 0.17955047081289288,
+        "y": 0.821114670956727,
+        "z": 1.0159488711358984
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "kitchen",
+      "powerswitch",
+      "kettle"
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Kettle and Coffee Machine, is monitored by the plant"
+      },
+      {
+        "key": "de",
+        "value": "Für den Wasserkocher und die Kaffeemaschine, wird von der Pflanze überwacht"
+      }
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/49+5/1/57"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_home_kitchen_assistance__PowerSwitch__Kettle__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "e763d6d4-8a91-4c56-a383-45b1a54cedbf",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/49+5/1/57"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_home_kitchen_assistance__PowerSwitch__Kettle__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "e763d6d4-8a91-4c56-a383-45b1a54cedbf",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "true"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

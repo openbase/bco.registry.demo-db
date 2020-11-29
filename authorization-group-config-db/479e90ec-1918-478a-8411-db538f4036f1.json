@@ -1,0 +1,67 @@
+{
+  "id": "479e90ec-1918-478a-8411-db538f4036f1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Absence Energy Saving Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-9"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "AuthorizationGroup-9"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "absenceenergysavingauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "2c6cccee-6d27-44cf-bbcb-1ca1cf366a2c"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "885c3c9c-7231-431c-99cc-a0378613f427",
+      "09e045e0-09b6-4a75-bcf8-7267893bbb1c",
+      "7b317cd6-cf14-4378-9653-7d20d092fa63",
+      "052173b4-7ecd-436a-9c2f-7fe5b4fc6280",
+      "389b547a-1908-44f9-bba7-54ee01bc9187",
+      "d31c19be-1587-4872-bc70-ae5d62ed9241"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "479e90ec-1918-478a-8411-db538f4036f1",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "92f01101-0577-4f49-8ca1-cfb5e6486874",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Standard Lamp Bottom"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Unten"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-2"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "Device-2"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "device",
+      "standardlampbottom"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "29"
+      },
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:29"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "67E265",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+      "timestamp": {
+        "time": 1538405717991000
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "f7d09b74-2f08-46ae-b3b9-c1f6fc8c8ed2"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

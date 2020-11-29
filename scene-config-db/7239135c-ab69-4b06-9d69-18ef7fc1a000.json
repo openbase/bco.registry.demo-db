@@ -1,0 +1,81 @@
+{
+  "id": "7239135c-ab69-4b06-9d69-18ef7fc1a000",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "All Off Robot Room"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Alles ausschalten Roboterraum"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Scene-2"
+  ],
+  "unit_type": "SCENE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Scene-2",
+    "pose": {},
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "robotroom",
+      "scene",
+      "alloffrobotroom"
+    ]
+  },
+  "description": {},
+  "service_config": [
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "7239135c-ab69-4b06-9d69-18ef7fc1a000",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "7239135c-ab69-4b06-9d69-18ef7fc1a000",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {
+    "optional_service_state_description": [
+      {
+        "unit_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_state_class_name": "org.openbase.type.domotic.state.PowerStateType$PowerState",
+        "service_state": "{\"value\": \"OFF\"}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Info"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Location-28"
+  ],
+  "unit_type": "LOCATION",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Location-28",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "info"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
+        "service_type": "BLIND_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "f33ce258-1d4d-4c0b-8721-8793494ea035",
+        "service_type": "SMOKE_ALARM_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
+        "service_type": "TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
+        "service_type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
+        "service_type": "MOTION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "ce7fedbe-e6b1-41ae-993e-e07acfa58344",
+        "service_type": "SMOKE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "f36cd89a-a3c6-4ca9-9bb0-972ab5ed4cec",
+        "service_type": "STANDBY_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "f36cd89a-a3c6-4ca9-9bb0-972ab5ed4cec",
+        "service_type": "STANDBY_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
+        "service_type": "ILLUMINANCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "location_type": "REGION",
+    "root": false,
+    "unit_id": [
+      "2d68dad7-e96e-4da3-955f-56b8dc261a5a",
+      "31270ca9-b672-4732-b666-24e35c63e4e3",
+      "6d7df96c-d71c-45ad-a65f-ddc195f32f6b",
+      "37298baf-95e4-41a7-9073-3e9a99fcdaf2",
+      "914d4f93-9510-4067-846e-57284fa25b53",
+      "3269e1e7-28fc-4bdb-9ff7-33ce1b751364"
+    ],
+    "tile_config": {
+      "meta_config": {}
+    }
+  }
+}

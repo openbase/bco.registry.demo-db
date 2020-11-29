@@ -1,0 +1,87 @@
+{
+  "id": "0fb97659-299a-4da9-8dfb-ece4ac0bee00",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Ceiling Ball Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Kugellampe"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-46"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Device-46",
+    "pose": {
+      "translation": {
+        "x": 0.6782195193016092,
+        "y": 2.2824022849792867,
+        "z": 2.3262219863855886
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "hallway",
+      "device",
+      "ceilingballlamp"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "1"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:1"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "089783",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "timestamp": {
+        "time": 1441014391960
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "51a38d12-35d5-49a4-9f73-35822c8aeb89"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

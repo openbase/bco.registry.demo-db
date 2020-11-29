@@ -1,0 +1,66 @@
+{
+  "id": "7c243a03-7d31-41a2-979d-da4c9418ff10",
+  "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Motion Sensor Hallway"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Flur"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "MotionDetector-13"
+  ],
+  "unit_host_id": "7e3043fb-b942-4bd0-9fe1-5b8ccadb6926",
+  "unit_type": "MOTION_DETECTOR",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "MotionDetector-13"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "hallway",
+      "motiondetector",
+      "motionsensorhallway"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Motion_Sensor__citec_csra_home_hallway__MotionDetector__Motion_Sensor_Hallway__MotionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7c243a03-7d31-41a2-979d-da4c9418ff10",
+      "service_description": {
+        "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
+        "service_type": "MOTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

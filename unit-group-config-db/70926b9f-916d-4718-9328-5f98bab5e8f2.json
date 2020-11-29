@@ -1,0 +1,202 @@
+{
+  "id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Ceiling Light Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "UnitGroup-6"
+  ],
+  "unit_type": "UNIT_GROUP",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "UnitGroup-6",
+    "pose": {
+      "translation": {
+        "x": 0.6263055643551959,
+        "y": 1.676815467609328,
+        "z": 1.8411547901952314
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "width": 4.9125876,
+        "depth": 5.911996,
+        "height": 0.8373517
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "unitgroup",
+      "ceilinglightgroup"
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "This group condenses all ceiling lights."
+      }
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "70926b9f-916d-4718-9328-5f98bab5e8f2",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "unit_group_config": {
+    "member_id": [
+      "0529ab14-ea69-4c54-9e7a-2288f7b0a5ec",
+      "efa33b37-8809-4483-beed-480fd9b50446",
+      "b71892c9-cb68-4f6c-9e1b-8837d3c28e1e",
+      "31b4fd8f-6355-49c2-90bc-039e92d602f0",
+      "8d310f30-d60a-4627-8884-373c5e2dcbdd",
+      "96891f9d-e7f2-449d-9871-a2d317214295",
+      "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
+      "9c3561a1-e6ce-476e-9bff-0d35807d2607",
+      "51a38d12-35d5-49a4-9f73-35822c8aeb89",
+      "f870b339-76c8-4d29-bada-abb04f75956d",
+      "47e63f5a-ff30-4b0d-905a-815f94aa8b50",
+      "2ca1b701-cfde-4570-83de-46610e6718fc",
+      "e0ed255a-21c1-4293-9283-f0ddc3aa242a",
+      "cdfa87e9-1c07-40f7-9acc-9e349a81f619"
+    ],
+    "unit_type": "COLORABLE_LIGHT",
+    "service_description": [
+      {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    ]
+  }
+}

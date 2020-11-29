@@ -1,0 +1,133 @@
+{
+  "id": "d8798d21-9426-4c8c-872a-f43d0e245a6d",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Bath Ambient Color Beach Ceiling"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Agent-1"
+  ],
+  "unit_type": "AGENT",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Agent-1",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "bath",
+      "agent",
+      "ambientcolor",
+      "bathambientcolorbeachceiling"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "d8798d21-9426-4c8c-872a-f43d0e245a6d",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d8798d21-9426-4c8c-872a-f43d0e245a6d",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "HOLDING_TIME",
+        "value": "500"
+      },
+      {
+        "key": "UNIT_1",
+        "value": "0529ab14-ea69-4c54-9e7a-2288f7b0a5ec"
+      },
+      {
+        "key": "UNIT_2",
+        "value": "b71892c9-cb68-4f6c-9e1b-8837d3c28e1e"
+      },
+      {
+        "key": "UNIT_3",
+        "value": "efa33b37-8809-4483-beed-480fd9b50446"
+      },
+      {
+        "key": "UNIT_4",
+        "value": "31b4fd8f-6355-49c2-90bc-039e92d602f0"
+      },
+      {
+        "key": "COLOR_1",
+        "value": "58;100;100"
+      },
+      {
+        "key": "COLOR_2",
+        "value": "55;100;100"
+      },
+      {
+        "key": "COLOR_3",
+        "value": "52;100;100"
+      },
+      {
+        "key": "COLOR_4",
+        "value": "49;100;100"
+      },
+      {
+        "key": "STRATEGY",
+        "value": "ONE"
+      },
+      {
+        "key": "COLOR_5",
+        "value": "46;100;100"
+      },
+      {
+        "key": "COLOR_6",
+        "value": "43;100;100"
+      },
+      {
+        "key": "COLOR_7",
+        "value": "40;100;100"
+      },
+      {
+        "key": "COLOR_8",
+        "value": "37;100;100"
+      },
+      {
+        "key": "COLOR_9",
+        "value": "34;100;100"
+      },
+      {
+        "key": "COLOR_10",
+        "value": "31;100;100"
+      },
+      {
+        "key": "COLOR_11",
+        "value": "100;100;100"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "DISABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "ff76a0a9-7977-435a-bca1-04669731ed8f",
+    "autostart": true
+  }
+}

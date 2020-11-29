@@ -1,0 +1,88 @@
+{
+  "id": "5e61acce-38e6-4830-8aaa-f92a4be2e0b6",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Ceiling Lamp 2"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Deckenlampe 2"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-23"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+    "transformation_frame_id": "Device-23",
+    "pose": {
+      "translation": {
+        "x": 0.6263055643551959,
+        "y": 0.579524412830664,
+        "z": -1.9411547916853475
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "dining",
+      "device",
+      "ceilinglamp2"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "38"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:38"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "87120C",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "59a6c6a9-bec5-4766-93a7-67782f4e36d4",
+      "timestamp": {
+        "time": 1441015778813
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "cdfa87e9-1c07-40f7-9acc-9e349a81f619"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

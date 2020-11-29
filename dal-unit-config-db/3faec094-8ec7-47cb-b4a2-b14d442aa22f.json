@@ -1,0 +1,69 @@
+{
+  "id": "3faec094-8ec7-47cb-b4a2-b14d442aa22f",
+  "unit_template_config_id": "Homematic_Sec_SC_2_REED_CONTACT_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Door Open"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "ReedContact-7"
+  ],
+  "unit_host_id": "1779a5fa-1ba9-4cae-ad58-f92928128c07",
+  "unit_type": "REED_CONTACT",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "ReedContact-7",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "kitchen",
+      "reedcontact",
+      "dooropen"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Homematic_Sec_SC_2__citec_csra_home_kitchen__ReedContact__Door_Open__ContactStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "3faec094-8ec7-47cb-b4a2-b14d442aa22f",
+      "service_description": {
+        "service_template_id": "7a3eaa02-2d76-4c93-9c66-4da45ea7bafa",
+        "service_type": "CONTACT_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "CONTACT_DOOR_POSITION",
+        "value": "OPEN"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

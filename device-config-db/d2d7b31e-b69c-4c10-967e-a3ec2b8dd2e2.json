@@ -1,0 +1,86 @@
+{
+  "id": "d2d7b31e-b69c-4c10-967e-a3ec2b8dd2e2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Standard Lamp Top",
+          "Recording Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Oben"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-105"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "Device-105"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "device",
+      "standardlamptop"
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "This lamp shows the status of recording, red: recording started, purple: recording stopped"
+      },
+      {
+        "key": "de",
+        "value": "Diese Lampe zeigt den Aufnahmestatus an, rot: Aufnahme gestartet, lila: Aufnahme gestoppt"
+      }
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "34"
+      },
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:34"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "E8FF8F",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+      "timestamp": {
+        "time": 1441016453612
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "bc243f30-f924-4348-b48e-2328aeb39da1"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

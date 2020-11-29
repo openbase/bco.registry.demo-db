@@ -1,0 +1,122 @@
+{
+  "id": "8b2d4b60-67fc-443d-afbc-7a6f7c973cc6",
+  "unit_template_config_id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_SWITCH_1",
+  "label": {
+    "entry": [
+      {
+        "key": "technical",
+        "value": [
+          "S9 A2"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerSwitch-51"
+  ],
+  "unit_host_id": "b70175fd-6780-483e-98e1-3b4a17960a5b",
+  "unit_type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
+    "transformation_frame_id": "PowerSwitch-51",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "powerswitch",
+      "s9a2"
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "de",
+        "value": "nicht angeschlossen, nicht verwendet"
+      },
+      {
+        "key": "en",
+        "value": "not connected, not used"
+      }
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1045__citec_csra_control__PowerSwitch__S9_C2__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "8b2d4b60-67fc-443d-afbc-7a6f7c973cc6",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/194+5/1/198"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1045__citec_csra_control__PowerSwitch__S9_C2__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "8b2d4b60-67fc-443d-afbc-7a6f7c973cc6",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

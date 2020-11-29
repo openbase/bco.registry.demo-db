@@ -1,0 +1,101 @@
+{
+  "id": "2f192f3f-1b57-477a-9812-421631d227ba",
+  "unit_template_config_id": "Gira_429496730210000_BUTTON_4",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "All Off Apartment"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Button-8",
+    "Task: Stop Audio - Living"
+  ],
+  "unit_host_id": "933f4d62-769a-4975-ad8d-45d36912b68b",
+  "unit_type": "BUTTON",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Button-8",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "button",
+      "alloffapartment"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/3/15"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_5133__citec_csra_home_living__Button__All_Off_Apartment__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "2f192f3f-1b57-477a-9812-421631d227ba",
+      "service_description": {
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
+        "service_type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AUTO_RESET_BUTTON_STATE",
+        "value": "true"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

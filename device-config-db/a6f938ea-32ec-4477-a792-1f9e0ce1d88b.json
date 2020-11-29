@@ -1,0 +1,74 @@
+{
+  "id": "a6f938ea-32ec-4477-a792-1f9e0ce1d88b",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Ceiling Lamp 3"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Deckenlampe 3"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-60"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Device-60",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "bath",
+      "device",
+      "ceilinglamp3"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "61"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:61"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "5D4AB9",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "timestamp": {
+        "time": 1441017035923
+      }
+    },
+    "device_class_id": "a9977a4a-ef9c-4280-81a3-79bf6b8069b4",
+    "unit_id": [
+      "efa33b37-8809-4483-beed-480fd9b50446"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

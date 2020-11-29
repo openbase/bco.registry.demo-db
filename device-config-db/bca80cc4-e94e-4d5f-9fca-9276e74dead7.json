@@ -1,0 +1,66 @@
+{
+  "id": "bca80cc4-e94e-4d5f-9fca-9276e74dead7",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Door Reed Switch"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-71"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Device-71",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "bath",
+      "device",
+      "doorreedswitch"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "LEQ0174341"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "homematic:HM-Sec-SC-2:1cab663c:LEQ0174341"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "LEQ0174341",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "timestamp": {
+        "time": 1441013960569
+      }
+    },
+    "device_class_id": "569ff797-09f1-4437-8404-391017776796",
+    "unit_id": [
+      "22295f56-ed80-4a36-8933-bf81d7d92eb7",
+      "33a6608e-6c3a-4ab9-9f0d-0e128b1ecd1c"
+    ]
+  },
+  "permission_config": {
+    "owner_id": ""
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "4008d70c-b500-4405-b8d6-1da0a82c84f3",
+  "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_2",
+  "label": {
+    "entry": [
+      {
+        "key": "technical",
+        "value": [
+          "S3 C3"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Dunstabzugshaube"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Kitchen hood"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerConsumptionSensor-50"
+  ],
+  "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
+  "unit_type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
+    "transformation_frame_id": "PowerConsumptionSensor-50",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "kitchen",
+      "assistance",
+      "powerconsumptionsensor",
+      "kitchenhood"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/67"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerConsumptionSensor__S3_C3_Consumption__PowerConsumptionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "4008d70c-b500-4405-b8d6-1da0a82c84f3",
+      "service_description": {
+        "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

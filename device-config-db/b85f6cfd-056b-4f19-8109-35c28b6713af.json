@@ -1,0 +1,87 @@
+{
+  "id": "b85f6cfd-056b-4f19-8109-35c28b6713af",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Standard Lamp Bottom"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Unten"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-74"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Device-74",
+    "pose": {
+      "translation": {
+        "x": 0.19236634372877504,
+        "y": 2.3017085646974245,
+        "z": 0.26980922994256673
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "bath",
+      "device",
+      "standardlampbottom"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "35"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:35"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "F0B5D9",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "timestamp": {
+        "time": 1490809934197000
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "12244433-e7e6-47a4-9d54-ec74edc00c15"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

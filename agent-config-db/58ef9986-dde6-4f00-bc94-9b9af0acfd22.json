@@ -1,0 +1,68 @@
+{
+  "id": "58ef9986-dde6-4f00-bc94-9b9af0acfd22",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Robot Room Presence Light"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Agent-26"
+  ],
+  "unit_type": "AGENT",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Agent-26",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {}
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "robotroom",
+      "agent",
+      "presencelight",
+      "robotroompresencelight"
+    ]
+  },
+  "description": {},
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "58ef9986-dde6-4f00-bc94-9b9af0acfd22",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "58ef9986-dde6-4f00-bc94-9b9af0acfd22",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "c2cb8f89-0426-467f-83e6-cd231a31ae93",
+    "autostart": true
+  }
+}

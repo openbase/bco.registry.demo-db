@@ -1,0 +1,67 @@
+{
+  "id": "29a441aa-70da-4aeb-bd08-c4092fc3032e",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Presence Light Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-1"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "AuthorizationGroup-1"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "presencelightauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "c2cb8f89-0426-467f-83e6-cd231a31ae93"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "3e92d5f7-a8f6-4216-b5f0-ec1d2b6c557f",
+      "33b5c677-e1a1-4211-9aa7-91e30a900735",
+      "e948eebd-4d79-4317-8677-f902149ea9d0",
+      "b3277f37-08dd-41e1-a87a-4ae4d94b42b4",
+      "70f2f619-84fb-4d95-b938-7aec0ecc51a8",
+      "bbc0fa95-1752-419f-a04d-a956b689eb9b"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "29a441aa-70da-4aeb-bd08-c4092fc3032e",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

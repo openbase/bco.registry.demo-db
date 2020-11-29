@@ -1,0 +1,69 @@
+{
+  "id": "d4ce3cdc-f5d8-4862-ad5f-e02cebd9d964",
+  "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Task: Auto Light"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Button-26",
+    "Task: Auto Light"
+  ],
+  "unit_host_id": "d9e491b1-27b3-4736-9ce0-c52476e827d3",
+  "unit_type": "BUTTON",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Button-26",
+    "pose": {},
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "hallway",
+      "button",
+      "taskautolight"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "1/2/15"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_5133__citec_csra_home_hallway__Button__Task_Auto_Light__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "d4ce3cdc-f5d8-4862-ad5f-e02cebd9d964",
+      "service_description": {
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
+        "service_type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

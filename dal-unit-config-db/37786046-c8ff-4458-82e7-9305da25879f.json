@@ -1,0 +1,125 @@
+{
+  "id": "37786046-c8ff-4458-82e7-9305da25879f",
+  "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_0",
+  "label": {
+    "entry": [
+      {
+        "key": "technical",
+        "value": [
+          "S6 A1"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bodentank 3 oben rechts"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Floorbox 3 top right"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerSwitch-60"
+  ],
+  "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
+  "unit_type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+    "transformation_frame_id": "PowerSwitch-60",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "robotroom",
+      "interaction",
+      "powerswitch",
+      "floorbox3topright"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S6_C1__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "37786046-c8ff-4458-82e7-9305da25879f",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/121+5/1/129"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S6_C1__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "37786046-c8ff-4458-82e7-9305da25879f",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1826c9d3-931e-41ac-a37d-f0e57b4697d9",
+  "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Motion Sensor Shower"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Dusche"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "MotionDetector-14"
+  ],
+  "unit_host_id": "2ccf07ae-51fa-4b7f-83b2-08b978eaf082",
+  "unit_type": "MOTION_DETECTOR",
+  "placement_config": {
+    "location_id": "cd696027-fb4f-497c-af30-144859a462da",
+    "transformation_frame_id": "MotionDetector-14"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "bath",
+      "shower",
+      "motiondetector",
+      "motionsensorshower"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Motion_Sensor__citec_csra_home_bath_shower__MotionDetector__Motion_Sensor_Shower__MotionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "1826c9d3-931e-41ac-a37d-f0e57b4697d9",
+      "service_description": {
+        "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
+        "service_type": "MOTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

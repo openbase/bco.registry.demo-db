@@ -1,0 +1,144 @@
+{
+  "id": "b9e1cafa-7599-4db0-842c-3df19c0b1dfc",
+  "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_1",
+  "label": {
+    "entry": [
+      {
+        "key": "technical",
+        "value": [
+          "S6 A2",
+          "PUG"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Win Kinect Tracker",
+          "Rechner PUG"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Win Kinect Tracking",
+          "Machine PUG"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerSwitch-28",
+    "PowerSwitch-Win-Kinect-Tracking"
+  ],
+  "unit_host_id": "8b7ed2aa-5585-46dc-9ef8-897b4a3f781e",
+  "unit_type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "PowerSwitch-28",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "powerswitch",
+      "winkinecttracking"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S6_C2__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "b9e1cafa-7599-4db0-842c-3df19c0b1dfc",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/122+5/1/130"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S6_C2__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "b9e1cafa-7599-4db0-842c-3df19c0b1dfc",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "true"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "f87e0e62-f390-4d78-bed3-13244ecc13a2",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
+    "other_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    }
+  }
+}

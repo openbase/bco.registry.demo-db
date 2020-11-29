@@ -1,0 +1,61 @@
+{
+  "id": "168952c1-1821-4aa6-b742-3d2213709d17",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Dimm Actuator 1"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-69"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
+    "transformation_frame_id": "Device-69",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "device",
+      "dimmactuator1"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "knx:device:168952c1-1821-4aa6-b742-3d2213709d17"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "397289802490000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
+      "timestamp": {
+        "time": 1441012859722
+      }
+    },
+    "device_class_id": "22a869e9-de2f-4e85-9503-5e5cacd39309",
+    "unit_id": [
+      "1c667ff0-8c5f-48d2-b467-9669c30c4578",
+      "9b27299f-522f-4b62-854a-187d3909d5a9",
+      "dccc86dc-f764-4602-8ad4-945bf6851581"
+    ]
+  },
+  "permission_config": {
+    "owner_id": ""
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "7e479546-e973-42cc-bc03-8a673bfceb70",
+  "unit_template_config_id": "Hager_TYA663A_DIMMER_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Ceiling Window Dimmer"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Dimmer-9"
+  ],
+  "unit_host_id": "d7f45b8f-f3b3-4d1a-b107-3231b4b33f3b",
+  "unit_type": "DIMMER",
+  "placement_config": {
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
+    "transformation_frame_id": "Dimmer-9",
+    "pose": {
+      "translation": {
+        "x": 1.996966724599532,
+        "y": 0.6178665372512251,
+        "z": -2.3089266038229908,
+        "frame_id": ""
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "lounge",
+      "dimmer",
+      "ceilingwindowdimmer"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/0/10+2/0/19"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__citec_csra_home_living_lounge__Dimmer__Ceiling_Window_Dimmer__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/0/10+2/0/19"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__citec_csra_home_living_lounge__Dimmer__Ceiling_Window_Dimmer__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/0/3+2/0/18"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__citec_csra_home_living_lounge__Dimmer__Ceiling_Window_Dimmer__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "2/0/3+2/0/18"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA663A__citec_csra_home_living_lounge__Dimmer__Ceiling_Window_Dimmer__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7e479546-e973-42cc-bc03-8a673bfceb70",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

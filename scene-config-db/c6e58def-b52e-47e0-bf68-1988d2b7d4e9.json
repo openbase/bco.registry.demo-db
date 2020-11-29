@@ -1,0 +1,83 @@
+{
+  "id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Chill"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Chillen"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Scene-21",
+    "Chill"
+  ],
+  "unit_type": "SCENE",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Scene-21",
+    "pose": {},
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "scene",
+      "chill"
+    ]
+  },
+  "description": {},
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "c6e58def-b52e-47e0-bf68-1988d2b7d4e9",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "service_type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "scene_config": {
+    "optional_service_state_description": [
+      {
+        "unit_id": "804542df-aebc-42cb-82ef-f03a97c96bf8",
+        "service_type": "POWER_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_state_class_name": "org.openbase.type.domotic.state.PowerStateType$PowerState",
+        "service_state": "{\"value\": \"OFF\"}"
+      },
+      {
+        "unit_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+        "service_type": "COLOR_STATE_SERVICE",
+        "unit_type": "UNKNOWN",
+        "service_state_class_name": "org.openbase.type.domotic.state.ColorStateType$ColorState",
+        "service_state": "{\"color\": {\"type\": \"HSB\",\"hsb_color\": {\"hue\": 44.92890930175781,\"saturation\": 0.9295154571533203,\"brightness\": 0.8901960754394531}}}"
+      }
+    ]
+  }
+}

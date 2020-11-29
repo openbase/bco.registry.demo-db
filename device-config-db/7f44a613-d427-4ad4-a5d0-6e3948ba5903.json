@@ -1,0 +1,88 @@
+{
+  "id": "7f44a613-d427-4ad4-a5d0-6e3948ba5903",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Standard Lamp Middle",
+          "Standard Lamp Center"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Mitte"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-63"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Device-63",
+    "pose": {
+      "translation": {
+        "x": 0.2100842415811357,
+        "y": 2.312594127224645,
+        "z": 0.6661968069994512
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "bath",
+      "device",
+      "standardlampmiddle"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "37"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:37"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "397A39",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "timestamp": {
+        "time": 1490809912739000
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "ec3c5b11-a915-49fa-ae54-787c2fa006c9"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

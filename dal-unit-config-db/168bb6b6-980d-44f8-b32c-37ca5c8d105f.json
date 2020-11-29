@@ -1,0 +1,110 @@
+{
+  "id": "168bb6b6-980d-44f8-b32c-37ca5c8d105f",
+  "unit_template_config_id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_CONSUMPTION_SENSOR_1",
+  "label": {
+    "entry": [
+      {
+        "key": "technical",
+        "value": [
+          "S9 C3"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Jalousie"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Blinds"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerConsumptionSensor-38"
+  ],
+  "unit_host_id": "b70175fd-6780-483e-98e1-3b4a17960a5b",
+  "unit_type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "PowerConsumptionSensor-38",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "robotroom",
+      "powerconsumptionsensor",
+      "blinds"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/203"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1045__citec_csra_control__PowerConsumptionSensor__S9_C3_Consumption__PowerConsumptionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "168bb6b6-980d-44f8-b32c-37ca5c8d105f",
+      "service_description": {
+        "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

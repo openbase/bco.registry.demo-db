@@ -1,0 +1,64 @@
+{
+  "id": "d7f45b8f-f3b3-4d1a-b107-3231b4b33f3b",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Dimm Actuator 2"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-49"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
+    "transformation_frame_id": "Device-49",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "lounge",
+      "device",
+      "dimmactuator2"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "knx:device:d7f45b8f-f3b3-4d1a-b107-3231b4b33f3b"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "397290010190000",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
+      "timestamp": {
+        "time": 1446816313065
+      }
+    },
+    "device_class_id": "22a869e9-de2f-4e85-9503-5e5cacd39309",
+    "unit_id": [
+      "7e479546-e973-42cc-bc03-8a673bfceb70",
+      "fec3cb67-ab1a-4f5d-8ea3-7e3c5d68a287",
+      "fd3443a8-8c3e-4894-ae1b-32c5dcb1b095"
+    ]
+  },
+  "permission_config": {
+    "owner_id": ""
+  }
+}

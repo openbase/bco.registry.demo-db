@@ -1,0 +1,130 @@
+{
+  "id": "7f5a8af0-0033-4947-bb85-a6600f3eb92d",
+  "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_2",
+  "label": {
+    "entry": [
+      {
+        "key": "technical",
+        "value": [
+          "S3 A3"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Dunstabzugshaube"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Kitchen hood"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerSwitch-24"
+  ],
+  "unit_host_id": "64da2fb2-aca7-4791-a5c1-e389a7361c05",
+  "unit_type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
+    "transformation_frame_id": "PowerSwitch-24",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "kitchen",
+      "assistance",
+      "powerswitch",
+      "kitchenhood"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/50+5/1/58"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S3_C3__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7f5a8af0-0033-4947-bb85-a6600f3eb92d",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/50+5/1/58"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S3_C3__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7f5a8af0-0033-4947-bb85-a6600f3eb92d",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

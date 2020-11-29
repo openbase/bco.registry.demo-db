@@ -1,0 +1,88 @@
+{
+  "id": "9a22c198-89fb-41b7-81d2-79c76737ac6f",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Windowlamp Right Bottom"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Fensterlampe Rechts Unten"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-120"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
+    "transformation_frame_id": "Device-120",
+    "pose": {
+      "translation": {
+        "x": 3.6866929046776917,
+        "y": -0.07122080477723003,
+        "z": 2.2325765988053954
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "window",
+      "device",
+      "windowlamprightbottom"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "21"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:21"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "AF3FBA",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
+      "timestamp": {
+        "time": 1490809806430000
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "1e40044f-3b9f-4e5c-ae65-f7a37a462a92"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

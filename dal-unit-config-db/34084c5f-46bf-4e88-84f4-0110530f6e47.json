@@ -1,0 +1,95 @@
+{
+  "id": "34084c5f-46bf-4e88-84f4-0110530f6e47",
+  "unit_template_config_id": "Gira_429496730210000_BUTTON_3",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Scenario: Learnface"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Button-31",
+    "Scenario: Learnface"
+  ],
+  "unit_host_id": "a33d0c22-346c-42ca-bed5-c72019700729",
+  "unit_type": "BUTTON",
+  "placement_config": {
+    "location_id": "cff20d86-c7e8-4d12-87e1-ebc67c7e0c93",
+    "transformation_frame_id": "Button-31",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "hallway",
+      "entrance",
+      "button",
+      "scenariolearnface"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "1/2/3"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_5133__citec_csra_home_hallway_entrance__Button__Scenario_Learnface__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "34084c5f-46bf-4e88-84f4-0110530f6e47",
+      "service_description": {
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
+        "service_type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

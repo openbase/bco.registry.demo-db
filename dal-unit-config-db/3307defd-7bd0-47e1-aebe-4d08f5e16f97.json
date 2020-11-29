@@ -1,0 +1,64 @@
+{
+  "id": "3307defd-7bd0-47e1-aebe-4d08f5e16f97",
+  "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Motion Sensor Window"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Fenster"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "LightSensor-19"
+  ],
+  "unit_host_id": "91fd0efe-8c5a-42e1-942e-69da07dfa380",
+  "unit_type": "LIGHT_SENSOR",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "LightSensor-19",
+    "pose": {
+      "translation": {},
+      "rotation": {}
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "lightsensor",
+      "motionsensorwindow"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Motion_Sensor__citec_csra_home_living_window__LightSensor__Motion_Sensor_Window__IlluminanceStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "3307defd-7bd0-47e1-aebe-4d08f5e16f97",
+      "service_description": {
+        "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
+        "service_type": "ILLUMINANCE_STATE_SERVICE"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

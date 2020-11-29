@@ -1,0 +1,547 @@
+{
+  "id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Kitchen"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Küche"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Location-3",
+    "Kitchen"
+  ],
+  "unit_type": "LOCATION",
+  "placement_config": {
+    "location_id": "ddc5097e-1018-443d-b288-e27e3a247e5d",
+    "transformation_frame_id": "Location-3",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "width": 2.45,
+        "depth": 3.1,
+        "height": 2.79
+      },
+      "floor": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": 2.45,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": 2.45,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ],
+      "ceiling": [
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.79
+        },
+        {
+          "x": 0.0,
+          "y": 3.1,
+          "z": 2.79
+        },
+        {
+          "x": 2.45,
+          "y": 3.1,
+          "z": 2.79
+        },
+        {
+          "x": 2.45,
+          "y": 0.0,
+          "z": 2.79
+        }
+      ],
+      "floor_ceiling_edge": [
+        {
+          "floor_index": 0,
+          "ceiling_index": 0
+        },
+        {
+          "floor_index": 1,
+          "ceiling_index": 1
+        },
+        {
+          "floor_index": 2,
+          "ceiling_index": 2
+        },
+        {
+          "floor_index": 3,
+          "ceiling_index": 3
+        }
+      ]
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "kitchen"
+    ]
+  },
+  "description": {},
+  "service_config": [
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
+        "service_type": "BLIND_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "f33ce258-1d4d-4c0b-8721-8793494ea035",
+        "service_type": "SMOKE_ALARM_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
+        "service_type": "TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
+        "service_type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
+        "service_type": "MOTION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "ce7fedbe-e6b1-41ae-993e-e07acfa58344",
+        "service_type": "SMOKE_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "f36cd89a-a3c6-4ca9-9bb0-972ab5ed4cec",
+        "service_type": "STANDBY_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "f36cd89a-a3c6-4ca9-9bb0-972ab5ed4cec",
+        "service_type": "STANDBY_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
+        "service_type": "ILLUMINANCE_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {},
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+      "service_description": {
+        "service_template_id": "11fab7b2-65d2-43b4-897e-fb698cc92c8e",
+        "service_type": "EMPHASIS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "location_type": "TILE",
+    "root": false,
+    "child_id": [
+      "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
+      "60c76826-4e0b-46c2-aa5c-36e7809ab7d3"
+    ],
+    "unit_id": [
+      "2aeae649-08f5-4b7d-84cf-27e22c073119",
+      "1779a5fa-1ba9-4cae-ad58-f92928128c07",
+      "4d350be1-3f09-48f8-8796-d336d7b10dfe",
+      "827f269b-f36b-49aa-95e9-eb89d87d1492",
+      "2e5602d8-67fd-402a-94e3-99ab9e4f3377",
+      "60c76826-4e0b-46c2-aa5c-36e7809ab7d3",
+      "46897193-9372-437c-9688-d5c29eb58aaa",
+      "46a4b800-27d8-4afb-98cc-9af4d469e57b",
+      "5809216a-0a05-4bce-adbe-b61188c9af85",
+      "7246780e-97db-4863-83eb-203ae1b6e362",
+      "9c3561a1-e6ce-476e-9bff-0d35807d2607",
+      "b94e86fd-9606-4c8c-9a0b-2ca9ac7f6d44",
+      "2c95255e-a491-46d7-a6a6-f66d5e6c2d3b",
+      "c82b515d-7b9f-4a66-8f89-77af9cbd3c71",
+      "61069abf-ebdc-4638-aebd-22ecbb66fe19",
+      "7219729b-5ae7-41b7-b3ea-804ea07acd37",
+      "443f15dc-2135-4787-9845-9c2eba71a3d0",
+      "86c6c67f-1f8e-4994-a70f-c1f5de0d13c1",
+      "8d92ec6f-889a-47be-8e47-00f838855cd7",
+      "fedecf5c-3bd8-47e2-8820-be60cac63031",
+      "2fe2dc58-3c1e-4ded-a27c-695d24621216",
+      "17a97269-351d-4ff7-9d21-ed760fd8a667",
+      "a9b55776-57b2-4589-a90c-dccb1fc7324e",
+      "063b5783-4576-4553-872d-3f5d4e17060d",
+      "32386102-d331-41e7-a68a-6961a8eecec3",
+      "48e43d6f-0015-40b3-895b-0ff33d4a74a4",
+      "594d8b86-030a-4f48-922e-d9ebdfaea8e3",
+      "02067c8e-eb24-46f7-a725-5e6ba535dea2",
+      "8d310f30-d60a-4627-8884-373c5e2dcbdd",
+      "3153bef6-7036-405c-9cb4-d23434c48648",
+      "380abfb6-0863-4830-b12b-8f73fc0dc667",
+      "5a53e87c-207c-4214-92f9-709abd11e478",
+      "e763d6d4-8a91-4c56-a383-45b1a54cedbf",
+      "8b787be0-45c2-4c7f-b3a3-7a6b73040df0",
+      "98acc701-87b9-4cf2-b79b-3eb6c166e2fe",
+      "a69b3e90-f0be-4433-9a40-583b438a3b93",
+      "3831e7cc-5fa7-4e38-9434-6db4b4197400",
+      "1c667ff0-8c5f-48d2-b467-9669c30c4578",
+      "be347a9c-0bb2-42d6-8f69-3699e52224ba",
+      "aed87a02-7a77-49ff-b8f7-7e6db819c285",
+      "15d2471e-d226-474a-9382-5d70a543ca99",
+      "928147d9-91b9-47ff-b952-14c300491c27",
+      "96891f9d-e7f2-449d-9871-a2d317214295",
+      "308037c0-6a75-4353-bbfc-6b77519955d7",
+      "c665afeb-6409-44a2-91f0-9a39fd04e8d3",
+      "279ba1d0-fa1a-4711-9ed9-eaf2e7947132",
+      "161d752e-4adc-42e0-88f1-9f54be5665e9",
+      "d84aff85-a8b5-425e-aae1-ddfb8bbae993",
+      "fac04544-0148-4969-adae-a96e94f5faac",
+      "ad4572dd-da48-4955-8a3c-254af118ff33",
+      "c1df1059-7823-4c24-8943-04db2bb04271",
+      "4f602ace-928a-4d0b-8853-d0bbe4d3fc74",
+      "f4813cfb-0701-46f6-848c-94697c9a87ef",
+      "8e04b5f9-2164-430b-9de8-f2208019971d",
+      "fa2ab151-3840-44a2-b417-3430a4ff46c7",
+      "4008d70c-b500-4405-b8d6-1da0a82c84f3",
+      "3faec094-8ec7-47cb-b4a2-b14d442aa22f",
+      "7f5a8af0-0033-4947-bb85-a6600f3eb92d"
+    ],
+    "tile_config": {
+      "tile_type": "INDOOR",
+      "connection_id": [
+        "725fffa8-5865-45bd-8684-f722d140255a",
+        "77b12917-44fc-4c2d-851d-2115b0ba5a39",
+        "06c55103-3a11-44b7-aed8-569880365a44"
+      ],
+      "meta_config": {}
+    },
+    "global_position": {}
+  },
+  "permission_config": {
+    "group_permission": [
+      {
+        "group_id": "a2f8fbf4-be73-46ce-b949-675fe47f37da",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "a5a33132-9856-4e46-848a-4eb7e6e23f00",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "f17ad780-aa0a-4685-8cae-5bbfb65caee9",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "0aef22a2-25e2-43f3-bab4-9edb2a8d01e0",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "77ae1dd3-9a2b-4997-8c74-683176cc5c61",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "08be1386-f0ad-4ac0-9ec0-295116610f0c",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "052173b4-7ecd-436a-9c2f-7fe5b4fc6280",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "e9d672d4-f6e9-404f-9903-531bd5fbab40",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "bbc0fa95-1752-419f-a04d-a956b689eb9b",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      },
+      {
+        "group_id": "82f962f5-64cf-4991-8f30-be9411809848",
+        "permission": {
+          "read": true,
+          "write": false,
+          "access": true
+        }
+      }
+    ]
+  }
+}

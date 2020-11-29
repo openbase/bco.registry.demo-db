@@ -1,0 +1,88 @@
+{
+  "id": "aff0965a-0b08-46c8-a9b8-757058ecf5da",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Windowlamp Left Top"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Fensterlampe Links Oben"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-58"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
+    "transformation_frame_id": "Device-58",
+    "pose": {
+      "translation": {
+        "x": 0.2726361398197228,
+        "y": -0.275082675047269,
+        "z": 1.9987216633832392
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "window",
+      "device",
+      "windowlamplefttop"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "20"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:20"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "DE38AF",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "0aad7cdf-6192-4f01-96cf-17bdf2bd6410",
+      "timestamp": {
+        "time": 1441016240349
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "34ca3b1a-417b-4c6c-bca0-3e8e77aacf9a"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

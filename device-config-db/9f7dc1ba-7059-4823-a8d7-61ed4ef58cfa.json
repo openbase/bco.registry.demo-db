@@ -1,0 +1,65 @@
+{
+  "id": "9f7dc1ba-7059-4823-a8d7-61ed4ef58cfa",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Sports To Living Reed Switch"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-89"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Device-89",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "robotroom",
+      "device",
+      "sportstolivingreedswitch"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "LEQ0174383"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "homematic:HM-Sec-SC-2:1cab663c:LEQ0174383"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "LEQ0174383",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "timestamp": {
+        "time": 1441014049905
+      }
+    },
+    "device_class_id": "569ff797-09f1-4437-8404-391017776796",
+    "unit_id": [
+      "2c6fd4c6-b5d6-47b9-8ff7-383cae27d58b",
+      "001b2abc-83c4-45b6-ae29-e16d69758d1e"
+    ]
+  },
+  "permission_config": {
+    "owner_id": ""
+  }
+}

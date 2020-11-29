@@ -1,0 +1,64 @@
+{
+  "id": "ccf98e11-774e-4805-b55b-e922e72a2b69",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Left Window Handle Sensor"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-116"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
+    "transformation_frame_id": "Device-116",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "device",
+      "leftwindowhandlesensor"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "MEQ0214469"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "homematic:HM-Sec-RHS:1cab663c:MEQ0214469"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "MEQ0214469",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "7a5cb343-cfaa-4ae8-8170-4637834ca0ab",
+      "timestamp": {
+        "time": 1447243098630
+      }
+    },
+    "device_class_id": "afee3bdb-873c-4bd3-bbb1-c918091bef85",
+    "unit_id": [
+      "0139a90c-2969-4dc7-8597-7185dbe4d3e8",
+      "67f8009d-7930-4edc-bd38-efb750c07a97"
+    ]
+  },
+  "permission_config": {
+    "owner_id": ""
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "066a42fb-7850-481a-a0e9-c11648064e2b",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Standard Lamp Top",
+          "Recording Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Stehlampe Oben"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-10"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Device-10",
+    "pose": {
+      "translation": {
+        "x": 3.630077500774899,
+        "y": 2.8376838355006218,
+        "z": 2.1351725423047103
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "device",
+      "standardlamptop"
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "This lamp shows the status of recording, red: recording started, purple: recording stopped"
+      },
+      {
+        "key": "de",
+        "value": "Diese Lampe zeigt den Aufnahmestatus an, rot: Aufnahme gestartet, lila: Aufnahme gestoppt"
+      }
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "46"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:46"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "3012DB",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1453712777346
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "c8b2bfb5-45d9-4a2b-9994-d4062ab19cab"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

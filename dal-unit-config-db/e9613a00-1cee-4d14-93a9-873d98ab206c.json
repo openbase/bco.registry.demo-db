@@ -1,0 +1,111 @@
+{
+  "id": "e9613a00-1cee-4d14-93a9-873d98ab206c",
+  "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_1",
+  "label": {
+    "entry": [
+      {
+        "key": "technical",
+        "value": [
+          "S8 C2"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bodentank 2 oben rechts"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Floorbox 2 top right"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerConsumptionSensor-16"
+  ],
+  "unit_host_id": "1505075c-a4a9-41d7-958a-556cdf7b73ac",
+  "unit_type": "POWER_CONSUMPTION_SENSOR",
+  "placement_config": {
+    "location_id": "dae2ee74-5748-46bb-a95a-1054ce40ea0a",
+    "transformation_frame_id": "PowerConsumptionSensor-16",
+    "pose": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "robotroom",
+      "interaction",
+      "powerconsumptionsensor",
+      "floorbox2topright"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/186"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerConsumptionSensor__S8_C2_Consumption__PowerConsumptionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "e9613a00-1cee-4d14-93a9-873d98ab206c",
+      "service_description": {
+        "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "INFRASTRUCTURE",
+        "value": "false"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

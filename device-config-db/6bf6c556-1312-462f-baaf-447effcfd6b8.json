@@ -1,0 +1,86 @@
+{
+  "id": "6bf6c556-1312-462f-baaf-447effcfd6b8",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Table Corner Lamp Top"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Tischlampe Ecke Oben"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-117"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "Device-117",
+    "pose": {
+      "translation": {
+        "x": -0.0413345477008642,
+        "y": 0.4228946992653686,
+        "z": 1.1120637038526864
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "robotroom",
+      "device",
+      "tablecornerlamptop"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "23"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:23"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "F5CF02",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+      "timestamp": {
+        "time": 1490810068277000
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "932b4f48-59d9-474a-b83e-82c4218b5ecf"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

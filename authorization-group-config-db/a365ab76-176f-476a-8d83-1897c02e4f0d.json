@@ -1,0 +1,68 @@
+{
+  "id": "a365ab76-176f-476a-8d83-1897c02e4f0d",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Power State Synchroniser Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-7"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "AuthorizationGroup-7"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "powerstatesynchroniserauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "96aed98a-e9d4-402e-a4c4-b0655d448a21"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "ba7a73bb-a792-44c3-be01-cef37dcbb6ff",
+      "91a70768-3e16-455a-abf0-8700a0cf69c7",
+      "08be1386-f0ad-4ac0-9ec0-295116610f0c",
+      "20f19de0-7dd2-4e3c-bdf8-238f351cb811",
+      "53300014-8f42-4d6a-8df0-00f4cd1f3c2f",
+      "e6369a69-8917-41b3-8160-38960e75de14",
+      "ace448a7-9883-4b08-bde8-ea7271e4c02e"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "a365ab76-176f-476a-8d83-1897c02e4f0d",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

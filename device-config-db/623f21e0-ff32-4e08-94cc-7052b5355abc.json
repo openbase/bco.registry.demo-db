@@ -1,0 +1,88 @@
+{
+  "id": "623f21e0-ff32-4e08-94cc-7052b5355abc",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Reading Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Leselampe"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-108"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
+    "transformation_frame_id": "Device-108",
+    "pose": {
+      "translation": {
+        "x": -0.09370571392576066,
+        "y": -0.2727407529300354,
+        "z": -1.2035675737859675
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "lounge",
+      "device",
+      "readinglamp"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "51"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:51"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "BCCDEE",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "0df5bbb8-2d17-4f81-9b34-314a26ae713a",
+      "timestamp": {
+        "time": 1441017180211
+      }
+    },
+    "device_class_id": "a9977a4a-ef9c-4280-81a3-79bf6b8069b4",
+    "unit_id": [
+      "66b5b93f-9f33-4d7d-8e61-5951a22f5483"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

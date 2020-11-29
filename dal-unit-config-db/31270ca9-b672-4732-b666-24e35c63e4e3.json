@@ -1,0 +1,67 @@
+{
+  "id": "31270ca9-b672-4732-b666-24e35c63e4e3",
+  "unit_template_config_id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Motion Sensor Control"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Bewegungsmelder Info Kontroll"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "MotionDetector-9"
+  ],
+  "unit_host_id": "3269e1e7-28fc-4bdb-9ff7-33ce1b751364",
+  "unit_type": "MOTION_DETECTOR",
+  "placement_config": {
+    "location_id": "23771e28-3fbe-4753-8f1e-38f0deb16326",
+    "transformation_frame_id": "MotionDetector-9"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "info",
+      "motiondetector",
+      "motionsensorcontrol"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Motion_Sensor__citec_csra_home_living_info__MotionDetector__Motion_Sensor_Control__MotionStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "31270ca9-b672-4732-b666-24e35c63e4e3",
+      "service_description": {
+        "service_template_id": "4ebe8edc-01be-4500-83a1-f753b306aa0f",
+        "service_type": "MOTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

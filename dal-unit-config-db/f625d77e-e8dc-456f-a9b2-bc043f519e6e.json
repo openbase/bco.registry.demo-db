@@ -1,0 +1,98 @@
+{
+  "id": "f625d77e-e8dc-456f-a9b2-bc043f519e6e",
+  "unit_template_config_id": "Hager_TYA628C_ROLLER_SHUTTER_0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Inside"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "RollerShutter-1"
+  ],
+  "unit_host_id": "f3857eeb-c0c5-466c-afe6-c7693212c96f",
+  "unit_type": "ROLLER_SHUTTER",
+  "placement_config": {
+    "location_id": "7ad72d61-e398-414b-9c5a-173242912ce6",
+    "transformation_frame_id": "RollerShutter-1",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "robotroom",
+      "rollershutter",
+      "inside"
+    ]
+  },
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "The inside rollershutter of the robot room."
+      }
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "4/2/0, 4/2/1, 4/2/2+4/2/3"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA628C__citec_csra_robotroom__RollerShutter__Inside__BlindStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "f625d77e-e8dc-456f-a9b2-bc043f519e6e",
+      "service_description": {
+        "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
+        "service_type": "BLIND_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "4/2/0, 4/2/1, 4/2/2+4/2/3"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Hager_TYA628C__citec_csra_robotroom__RollerShutter__Inside__BlindStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "f625d77e-e8dc-456f-a9b2-bc043f519e6e",
+      "service_description": {
+        "service_template_id": "a2175895-7dcf-4d51-96aa-dcb01b47ed04",
+        "service_type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

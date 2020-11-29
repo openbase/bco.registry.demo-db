@@ -1,0 +1,125 @@
+{
+  "id": "32386102-d331-41e7-a68a-6961a8eecec3",
+  "unit_template_config_id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_7",
+  "label": {
+    "entry": [
+      {
+        "key": "technical",
+        "value": [
+          "S1 A8"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Waschmaschine"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Washing mashine"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerSwitch-4"
+  ],
+  "unit_host_id": "01bbbce7-fa7d-4215-9105-fc44f9d6ead1",
+  "unit_type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "f0a71f71-1463-41e3-9c9a-25a02a536001",
+    "transformation_frame_id": "PowerSwitch-4",
+    "pose": {
+      "translation": {
+        "x": 0.21287596356877203,
+        "y": 0.951942902617096,
+        "z": 0.21474532222766496,
+        "frame_id": ""
+      },
+      "rotation": {}
+    },
+    "shape": {
+      "bounding_box": {
+        "left_front_bottom": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "frame_id": ""
+        },
+        "width": 0.0,
+        "depth": 0.0,
+        "height": 0.0
+      }
+    }
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "kitchen",
+      "powerswitch",
+      "washingmashine"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S1_C8__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "32386102-d331-41e7-a68a-6961a8eecec3",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_CONFIG",
+              "value": "5/1/7+5/1/15"
+            },
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Gira_1046__citec_csra_control__PowerSwitch__S1_C8__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "32386102-d331-41e7-a68a-6961a8eecec3",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

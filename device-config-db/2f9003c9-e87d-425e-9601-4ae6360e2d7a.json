@@ -1,0 +1,66 @@
+{
+  "id": "2f9003c9-e87d-425e-9601-4ae6360e2d7a",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Right Window Reed Switch"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-9"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+    "transformation_frame_id": "Device-9",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "living",
+      "device",
+      "rightwindowreedswitch"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "LEQ0174337"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "homematic:HM-Sec-SC-2:1cab663c:LEQ0174337"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "LEQ0174337",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "81b9efa4-2dc9-432e-b47c-1d73021ff0f3",
+      "timestamp": {
+        "time": 1441013876129
+      }
+    },
+    "device_class_id": "569ff797-09f1-4437-8404-391017776796",
+    "unit_id": [
+      "3280c10f-7228-4b5d-a7ae-bbd98fb15293",
+      "f08a94ae-79e3-4de7-a0b6-f167cdeb49b0"
+    ]
+  },
+  "permission_config": {
+    "owner_id": ""
+  }
+}

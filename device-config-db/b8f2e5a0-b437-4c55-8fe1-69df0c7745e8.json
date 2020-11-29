@@ -1,0 +1,87 @@
+{
+  "id": "b8f2e5a0-b437-4c55-8fe1-69df0c7745e8",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Mirror Lamp Bottom"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Spiegellampe Unten"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-85"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Device-85",
+    "pose": {
+      "translation": {
+        "x": 1.9314562873533223,
+        "y": -0.02129651813061062,
+        "z": 1.5547288793051302
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "bath",
+      "device",
+      "mirrorlampbottom"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "27"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:27"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "08575F",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "timestamp": {
+        "time": 1490809957444000
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "9dc9a103-5c4b-4e65-8f97-3082fcd1801d"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

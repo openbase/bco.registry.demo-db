@@ -1,0 +1,87 @@
+{
+  "id": "c3d8b73e-0990-4d53-9fea-9cac0973378d",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Small Ceiling Lamp"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Kleine Deckenlampe"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-104"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+    "transformation_frame_id": "Device-104",
+    "pose": {
+      "translation": {
+        "x": 0.6334118224882559,
+        "y": 4.365046731625888,
+        "z": 2.5508696871721797
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "hallway",
+      "device",
+      "smallceilinglamp"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "2"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:2"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "73EA9C",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "4a1d3474-7322-48d5-859f-8d9f50f479b9",
+      "timestamp": {
+        "time": 1441015634430
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "f870b339-76c8-4d29-bada-abb04f75956d"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}

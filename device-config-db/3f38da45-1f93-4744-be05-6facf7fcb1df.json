@@ -1,0 +1,87 @@
+{
+  "id": "3f38da45-1f93-4744-be05-6facf7fcb1df",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Mirror Lamp Top"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Spiegellampe Oben"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-29"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+    "transformation_frame_id": "Device-29",
+    "pose": {
+      "translation": {
+        "x": 1.9256712949325507,
+        "y": -0.023184753710077777,
+        "z": 1.7416919904673158
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "csra",
+      "home",
+      "bath",
+      "device",
+      "mirrorlamptop"
+    ]
+  },
+  "description": {},
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "49"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821671c:49"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "AD8965",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "f44ad3f8-25f4-44f9-adaa-384676b361a6",
+      "timestamp": {
+        "time": 1453713789800
+      }
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "020cf35d-e6a9-4af8-9f3c-16184dff8d36"
+    ]
+  },
+  "permission_config": {
+    "owner_id": "",
+    "owner_permission": {},
+    "other_permission": {}
+  }
+}
