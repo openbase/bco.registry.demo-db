@@ -460,7 +460,14 @@
       }
     }
   ],
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "ICON",
+        "value": "{\"codePoint\":58964,\"fontFamily\":\"MaterialIcons\",\"fontPackage\":null,\"matchTextDirection\":false}"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   },
