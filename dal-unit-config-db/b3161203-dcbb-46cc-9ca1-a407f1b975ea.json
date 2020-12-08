@@ -22,10 +22,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "powerconsumptionsensor",
-      "s8c8consumption"
+      "powerconsumptionsensor-69"
     ]
   },
   "bound_to_unit_host": false,

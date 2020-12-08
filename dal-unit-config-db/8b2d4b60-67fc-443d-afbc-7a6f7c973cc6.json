@@ -44,10 +44,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "powerswitch",
-      "s9a2"
+      "powerswitch-51"
     ]
   },
   "description": {

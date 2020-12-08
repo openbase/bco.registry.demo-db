@@ -56,10 +56,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "powerswitch",
-      "airconditioner"
+      "powerswitch-67"
     ]
   },
   "description": {},

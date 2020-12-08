@@ -73,10 +73,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "connection",
-      "livingtorobotroomdoor"
+      "connection-3"
     ]
   },
   "description": {},

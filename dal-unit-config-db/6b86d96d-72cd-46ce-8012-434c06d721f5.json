@@ -28,13 +28,13 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "bath",
-      "shower",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-10",
+      "location-4",
       "tamperdetector",
-      "motionsensorshower"
+      "tamperdetector-7"
     ]
   },
   "bound_to_unit_host": true,

@@ -21,12 +21,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "hallway",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-13",
       "device",
-      "entrancedoorreedswitch"
+      "device-28"
     ]
   },
   "bound_to_unit_host": true,

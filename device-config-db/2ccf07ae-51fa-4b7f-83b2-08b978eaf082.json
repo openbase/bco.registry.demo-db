@@ -27,13 +27,13 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "bath",
-      "shower",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-10",
+      "location-4",
       "device",
-      "motionsensorshower"
+      "device-5"
     ]
   },
   "description": {},

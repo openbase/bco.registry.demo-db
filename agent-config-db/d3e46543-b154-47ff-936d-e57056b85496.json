@@ -22,13 +22,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "hallway",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-13",
       "agent",
-      "absenceenergysaving",
-      "wardrobeeconomy"
+      "agent-5"
     ]
   },
   "description": {},

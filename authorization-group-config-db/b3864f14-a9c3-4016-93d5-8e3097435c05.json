@@ -20,10 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
-      "authorization",
-      "group",
-      "partylighttilefollowerauthorizationgroup"
+      "location-18",
+      "authorizationgroup",
+      "authorizationgroup-15"
     ]
   },
   "meta_config": {

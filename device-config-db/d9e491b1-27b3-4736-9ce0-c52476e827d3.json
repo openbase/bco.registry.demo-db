@@ -20,12 +20,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "hallway",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-13",
       "device",
-      "hallwaybelowbuttons"
+      "device-91"
     ]
   },
   "bound_to_unit_host": false,

@@ -73,9 +73,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "connection",
-      "livingwindowright"
+      "connection-8"
     ]
   },
   "description": {},

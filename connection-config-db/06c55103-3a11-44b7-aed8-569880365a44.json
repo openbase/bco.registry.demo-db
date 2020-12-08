@@ -73,11 +73,11 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
+      "location-18",
+      "location-20",
+      "location-7",
       "connection",
-      "kitchenpassage"
+      "connection-13"
     ]
   },
   "description": {},

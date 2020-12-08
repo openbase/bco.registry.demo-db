@@ -56,12 +56,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "robotroom",
-      "interaction",
+      "location-18",
+      "location-20",
+      "location-2",
+      "location-14",
       "powerconsumptionsensor",
-      "floorbox3topleft"
+      "powerconsumptionsensor-18"
     ]
   },
   "description": {},

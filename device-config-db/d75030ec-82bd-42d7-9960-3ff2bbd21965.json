@@ -26,9 +26,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "device",
-      "motionsensorentrancecontrol"
+      "device-26"
     ]
   },
   "description": {},

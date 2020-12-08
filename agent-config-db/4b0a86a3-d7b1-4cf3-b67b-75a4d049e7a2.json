@@ -22,13 +22,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "bath",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-10",
       "agent",
-      "powerstatesynchroniser",
-      "bathdimmerpowerstatesynchroniser"
+      "agent-4"
     ]
   },
   "description": {},

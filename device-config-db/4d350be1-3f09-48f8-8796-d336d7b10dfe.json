@@ -21,12 +21,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "kitchen",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-3",
       "device",
-      "doorclosed"
+      "device-3"
     ]
   },
   "bound_to_unit_host": true,

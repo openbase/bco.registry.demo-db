@@ -21,11 +21,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "agent",
-      "standby",
-      "standbycontrolroom"
+      "agent-8"
     ]
   },
   "description": {},

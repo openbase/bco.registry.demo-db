@@ -40,13 +40,13 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "living",
-      "lounge",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-11",
+      "location-5",
       "device",
-      "smallceilinglamp"
+      "device-8"
     ]
   },
   "description": {},

@@ -20,10 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
-      "authorization",
-      "group",
-      "ambientcolorauthorizationgroup"
+      "location-18",
+      "authorizationgroup",
+      "authorizationgroup-6"
     ]
   },
   "meta_config": {

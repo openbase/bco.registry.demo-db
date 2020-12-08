@@ -21,10 +21,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "device",
-      "hagertya628c397290922010000"
+      "device-57"
     ]
   },
   "bound_to_unit_host": false,

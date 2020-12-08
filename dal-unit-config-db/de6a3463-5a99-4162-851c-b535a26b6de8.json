@@ -33,9 +33,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "colorablelight",
-      "standardlampmiddle"
+      "colorablelight-8"
     ]
   },
   "description": {},

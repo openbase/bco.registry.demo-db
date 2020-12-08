@@ -21,11 +21,11 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "robotroom",
+      "location-18",
+      "location-20",
+      "location-2",
       "device",
-      "pathwaybuttons1"
+      "device-43"
     ]
   },
   "bound_to_unit_host": false,

@@ -28,9 +28,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "tamperdetector",
-      "motionsensorentrancecontrol"
+      "tamperdetector-13"
     ]
   },
   "bound_to_unit_host": true,

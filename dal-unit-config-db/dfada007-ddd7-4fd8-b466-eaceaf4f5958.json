@@ -32,9 +32,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "motiondetector",
-      "motionsensorwindow"
+      "motiondetector-19"
     ]
   },
   "bound_to_unit_host": true,

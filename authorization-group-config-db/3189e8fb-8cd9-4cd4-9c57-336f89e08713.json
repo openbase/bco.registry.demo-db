@@ -20,10 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
-      "authorization",
-      "group",
-      "soundscapeauthorizationgroup"
+      "location-18",
+      "authorizationgroup",
+      "authorizationgroup-17"
     ]
   },
   "meta_config": {

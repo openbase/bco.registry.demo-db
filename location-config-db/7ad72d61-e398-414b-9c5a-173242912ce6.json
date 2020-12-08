@@ -197,9 +197,9 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "robotroom"
+      "location-18",
+      "location-20",
+      "location-2"
     ]
   },
   "description": {},

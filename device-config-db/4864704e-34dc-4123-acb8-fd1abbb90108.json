@@ -21,10 +21,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "device",
-      "s5"
+      "device-94"
     ]
   },
   "bound_to_unit_host": false,

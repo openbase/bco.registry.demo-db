@@ -20,10 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
-      "authorization",
-      "group",
-      "cloudconnectorauthorizationgroup"
+      "location-18",
+      "authorizationgroup",
+      "authorizationgroup-13"
     ]
   },
   "meta_config": {

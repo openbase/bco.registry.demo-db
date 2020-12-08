@@ -29,11 +29,11 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
+      "location-18",
+      "location-20",
+      "location-7",
       "scene",
-      "maintenance"
+      "scene-22"
     ]
   },
   "description": {},

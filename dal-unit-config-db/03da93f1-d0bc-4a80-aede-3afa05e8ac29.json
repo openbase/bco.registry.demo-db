@@ -59,11 +59,11 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "robotroom",
+      "location-18",
+      "location-20",
+      "location-2",
       "powerconsumptionsensor",
-      "parapetchannel3leftprojector"
+      "powerconsumptionsensor-41"
     ]
   },
   "description": {},

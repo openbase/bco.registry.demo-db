@@ -20,10 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
-      "authorization",
-      "group",
-      "huetestauthorizationgroup"
+      "location-18",
+      "authorizationgroup",
+      "authorizationgroup-4"
     ]
   },
   "meta_config": {

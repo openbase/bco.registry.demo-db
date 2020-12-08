@@ -20,10 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
-      "authorization",
-      "group",
-      "randomlightpatternauthorizationgroup"
+      "location-18",
+      "authorizationgroup",
+      "authorizationgroup-12"
     ]
   },
   "meta_config": {

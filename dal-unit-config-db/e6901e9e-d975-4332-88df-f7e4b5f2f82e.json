@@ -28,11 +28,11 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "robotroom",
+      "location-18",
+      "location-20",
+      "location-2",
       "temperaturesensor",
-      "motionsensorpathway"
+      "temperaturesensor-17"
     ]
   },
   "bound_to_unit_host": true,

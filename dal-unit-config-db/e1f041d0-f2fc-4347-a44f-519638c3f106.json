@@ -41,12 +41,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "robotroom",
-      "interaction",
+      "location-18",
+      "location-20",
+      "location-2",
+      "location-14",
       "powerswitch",
-      "floorbox2bottomright"
+      "powerswitch-56"
     ]
   },
   "description": {},

@@ -28,10 +28,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "tamperdetector",
-      "motionsensorterminal"
+      "tamperdetector-14"
     ]
   },
   "bound_to_unit_host": true,

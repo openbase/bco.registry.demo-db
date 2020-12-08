@@ -40,11 +40,11 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "robotroom",
+      "location-18",
+      "location-20",
+      "location-2",
       "device",
-      "tablecornerlampbottom"
+      "device-32"
     ]
   },
   "description": {},

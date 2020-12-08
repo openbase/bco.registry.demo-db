@@ -20,9 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
+      "location-18",
       "user",
-      "partylightfollowerkitchen"
+      "user-35"
     ]
   },
   "service_config": [

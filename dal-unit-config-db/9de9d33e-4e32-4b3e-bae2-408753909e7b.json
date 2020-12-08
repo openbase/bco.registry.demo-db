@@ -28,9 +28,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "battery",
-      "motionsensorentrancecontrol"
+      "battery-33"
     ]
   },
   "bound_to_unit_host": true,

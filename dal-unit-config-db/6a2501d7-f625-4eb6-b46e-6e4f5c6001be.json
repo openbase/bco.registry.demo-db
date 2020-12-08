@@ -38,12 +38,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "living",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-11",
       "rollershutter",
-      "outside"
+      "rollershutter-3"
     ]
   },
   "description": {

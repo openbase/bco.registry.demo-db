@@ -20,9 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
+      "location-18",
       "user",
-      "standbylivingliving"
+      "user-12"
     ]
   },
   "service_config": [

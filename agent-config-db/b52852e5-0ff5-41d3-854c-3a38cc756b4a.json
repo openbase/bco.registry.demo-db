@@ -21,13 +21,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "kitchen",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-3",
       "agent",
-      "standby",
-      "standbykitchen"
+      "agent-12"
     ]
   },
   "description": {},

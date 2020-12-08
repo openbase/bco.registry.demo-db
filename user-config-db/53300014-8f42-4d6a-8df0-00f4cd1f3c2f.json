@@ -20,9 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
+      "location-18",
       "user",
-      "entrancedimmerpowerstatesynchroniserentrance"
+      "user-27"
     ]
   },
   "service_config": [

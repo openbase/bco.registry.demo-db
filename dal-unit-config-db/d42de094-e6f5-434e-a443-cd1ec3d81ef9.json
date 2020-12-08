@@ -28,12 +28,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "robotroom",
-      "interaction",
+      "location-18",
+      "location-20",
+      "location-2",
+      "location-14",
       "motiondetector",
-      "motionsensorinteraction"
+      "motiondetector-4"
     ]
   },
   "bound_to_unit_host": true,

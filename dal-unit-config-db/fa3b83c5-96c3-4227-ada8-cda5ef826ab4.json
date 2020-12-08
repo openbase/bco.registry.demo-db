@@ -56,12 +56,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "bath",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-10",
       "powerswitch",
-      "door"
+      "powerswitch-10"
     ]
   },
   "description": {},

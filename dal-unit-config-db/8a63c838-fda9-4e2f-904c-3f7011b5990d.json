@@ -56,10 +56,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "powerswitch",
-      "blinds"
+      "powerswitch-42"
     ]
   },
   "description": {},

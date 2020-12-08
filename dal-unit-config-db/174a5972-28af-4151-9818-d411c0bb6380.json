@@ -44,10 +44,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "powerconsumptionsensor",
-      "s9c2"
+      "powerconsumptionsensor-2"
     ]
   },
   "description": {

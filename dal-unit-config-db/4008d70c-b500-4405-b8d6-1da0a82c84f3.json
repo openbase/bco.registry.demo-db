@@ -56,13 +56,13 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "kitchen",
-      "assistance",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-3",
+      "location-22",
       "powerconsumptionsensor",
-      "kitchenhood"
+      "powerconsumptionsensor-50"
     ]
   },
   "description": {},

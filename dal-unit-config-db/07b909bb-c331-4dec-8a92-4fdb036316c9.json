@@ -28,9 +28,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "motiondetector",
-      "motionsensorentrancecontrol"
+      "motiondetector-6"
     ]
   },
   "bound_to_unit_host": true,

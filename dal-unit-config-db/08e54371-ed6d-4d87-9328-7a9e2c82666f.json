@@ -28,9 +28,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "temperaturesensor",
-      "motionsensorentrancecontrol"
+      "temperaturesensor-11"
     ]
   },
   "bound_to_unit_host": true,

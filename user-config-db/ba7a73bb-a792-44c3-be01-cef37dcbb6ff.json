@@ -20,9 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
+      "location-18",
       "user",
-      "ceilinglampcentralpowersynchroniserliving"
+      "user-10"
     ]
   },
   "service_config": [

@@ -20,9 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
+      "location-18",
       "user",
-      "standyrobotroomrobotroom"
+      "user-21"
     ]
   },
   "service_config": [

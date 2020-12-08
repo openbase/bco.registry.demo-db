@@ -40,8 +40,8 @@
   },
   "scope": {
     "component": [
-      "home",
-      "outdoor"
+      "location-18",
+      "location-8"
     ]
   },
   "description": {},

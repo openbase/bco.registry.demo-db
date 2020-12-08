@@ -27,10 +27,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "outdoor",
+      "location-18",
+      "location-8",
       "device",
-      "motionsensorentrance"
+      "device-65"
     ]
   },
   "description": {},

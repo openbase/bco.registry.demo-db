@@ -27,9 +27,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "device",
-      "standardlampmiddle"
+      "device-42"
     ]
   },
   "description": {},

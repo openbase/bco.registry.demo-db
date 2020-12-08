@@ -73,9 +73,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "connection",
-      "apartmententrancedoor"
+      "connection-1"
     ]
   },
   "description": {},

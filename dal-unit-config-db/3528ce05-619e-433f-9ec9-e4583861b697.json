@@ -56,11 +56,11 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "robotroom",
+      "location-18",
+      "location-20",
+      "location-2",
       "powerswitch",
-      "parapetchannel5leftaudio4"
+      "powerswitch-53"
     ]
   },
   "description": {},

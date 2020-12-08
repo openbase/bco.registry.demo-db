@@ -53,12 +53,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "living",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-11",
       "colorablelight",
-      "standardlampbottom"
+      "colorablelight-30"
     ]
   },
   "bound_to_unit_host": true,

@@ -27,12 +27,11 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
+      "location-18",
+      "location-20",
+      "location-7",
       "app",
-      "nightlight",
-      "nightlight"
+      "app-4"
     ]
   },
   "description": {},

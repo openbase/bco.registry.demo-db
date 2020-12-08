@@ -22,9 +22,9 @@
   },
   "scope": {
     "component": [
-      "manager",
+      "location-18",
       "user",
-      "erna"
+      "user-36"
     ]
   },
   "description": {},

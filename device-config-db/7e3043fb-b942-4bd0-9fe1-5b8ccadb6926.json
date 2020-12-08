@@ -27,12 +27,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "hallway",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-13",
       "device",
-      "motionsensorhallway"
+      "device-51"
     ]
   },
   "description": {},

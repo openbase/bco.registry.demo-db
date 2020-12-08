@@ -58,12 +58,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "kitchen",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-3",
       "powerswitch",
-      "machineinfrastructure1"
+      "powerswitch-49"
     ]
   },
   "description": {},

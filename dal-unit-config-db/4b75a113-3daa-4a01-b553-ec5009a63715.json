@@ -44,13 +44,13 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "living",
-      "hometheater",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-11",
+      "location-6",
       "powerconsumptionsensor",
-      "tv"
+      "powerconsumptionsensor-66"
     ]
   },
   "description": {},

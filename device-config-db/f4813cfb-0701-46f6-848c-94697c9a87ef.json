@@ -27,12 +27,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "kitchen",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-3",
       "device",
-      "ceilinglamp2"
+      "device-121"
     ]
   },
   "description": {},

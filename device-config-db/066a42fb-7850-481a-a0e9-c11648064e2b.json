@@ -41,12 +41,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "living",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-11",
       "device",
-      "standardlamptop"
+      "device-10"
     ]
   },
   "description": {

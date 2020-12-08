@@ -23,12 +23,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "bath",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-10",
       "button",
-      "defaultbath"
+      "button-20"
     ]
   },
   "bound_to_unit_host": false,

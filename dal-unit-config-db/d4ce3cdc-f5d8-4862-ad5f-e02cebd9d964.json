@@ -25,12 +25,12 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "hallway",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-13",
       "button",
-      "taskautolight"
+      "button-26"
     ]
   },
   "description": {},

@@ -26,9 +26,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "device",
-      "motionsensorwindow"
+      "device-127"
     ]
   },
   "description": {},

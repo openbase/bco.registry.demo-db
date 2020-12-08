@@ -20,10 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
-      "authorization",
-      "group",
-      "absenceenergysavingauthorizationgroup"
+      "location-18",
+      "authorizationgroup",
+      "authorizationgroup-9"
     ]
   },
   "meta_config": {

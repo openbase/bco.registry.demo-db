@@ -27,9 +27,9 @@
   },
   "scope": {
     "component": [
-      "home",
+      "location-18",
       "device",
-      "standardlamptop"
+      "device-105"
     ]
   },
   "description": {

@@ -42,13 +42,13 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
-      "home",
-      "living",
-      "window",
+      "location-18",
+      "location-20",
+      "location-7",
+      "location-11",
+      "location-30",
       "colorablelight",
-      "windowlamplefttop"
+      "colorablelight-41"
     ]
   },
   "description": {},

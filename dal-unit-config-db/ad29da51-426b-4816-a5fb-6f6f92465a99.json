@@ -28,10 +28,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "outdoor",
+      "location-18",
+      "location-8",
       "lightsensor",
-      "motionsensorentrance"
+      "lightsensor-13"
     ]
   },
   "bound_to_unit_host": true,

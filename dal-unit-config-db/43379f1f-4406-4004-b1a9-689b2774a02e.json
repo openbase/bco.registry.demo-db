@@ -28,10 +28,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "lightsensor",
-      "motionsensorterminal"
+      "lightsensor-12"
     ]
   },
   "bound_to_unit_host": true,

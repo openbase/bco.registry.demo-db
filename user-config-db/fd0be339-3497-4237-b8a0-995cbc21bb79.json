@@ -20,9 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
+      "location-18",
       "user",
-      "bathambientcolornightbath"
+      "user-25"
     ]
   },
   "service_config": [

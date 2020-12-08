@@ -29,10 +29,10 @@
   },
   "scope": {
     "component": [
-      "home",
-      "csra",
+      "location-18",
+      "location-20",
       "device",
-      "s3"
+      "device-56"
     ]
   },
   "description": {},

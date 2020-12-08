@@ -20,9 +20,9 @@
   },
   "scope": {
     "component": [
-      "manager",
+      "location-18",
       "user",
-      "wardrobeeconomyhallway"
+      "user-3"
     ]
   },
   "service_config": [
