@@ -11,18 +11,19 @@
     ]
   },
   "alias": [
+    "User-38",
     "AdminUser"
   ],
   "unit_type": "USER",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "AdminUser"
+    "transformation_frame_id": "User-38"
   },
   "scope": {
     "component": [
       "location-18",
       "user",
-      "adminuser"
+      "user-38"
     ]
   },
   "service_config": [

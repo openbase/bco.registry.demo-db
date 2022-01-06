@@ -11,18 +11,19 @@
     ]
   },
   "alias": [
+    "AuthorizationGroup-24",
     "BCOGroup"
   ],
   "unit_type": "AUTHORIZATION_GROUP",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "BCOGroup"
+    "transformation_frame_id": "AuthorizationGroup-24"
   },
   "scope": {
     "component": [
       "location-18",
       "authorizationgroup",
-      "bcogroup"
+      "authorizationgroup-24"
     ]
   },
   "enabling_state": {

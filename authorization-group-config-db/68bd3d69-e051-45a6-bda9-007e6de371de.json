@@ -1,39 +1,42 @@
 {
-  "id": "dcd24284-bcfd-493e-91e8-26b766e38301",
+  "id": "68bd3d69-e051-45a6-bda9-007e6de371de",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "Admin"
+          "Master Slave Power Cycle Authorization Group"
         ]
       }
     ]
   },
   "alias": [
-    "AuthorizationGroup-23",
-    "AdminGroup"
+    "AuthorizationGroup-25"
   ],
   "unit_type": "AUTHORIZATION_GROUP",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "AuthorizationGroup-23"
+    "transformation_frame_id": "AuthorizationGroup-25"
   },
   "scope": {
     "component": [
       "location-18",
       "authorizationgroup",
-      "authorizationgroup-23"
+      "authorizationgroup-25"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "f6f48739-7de4-4dab-8237-9ed537c1ef6e"
+      }
     ]
   },
   "enabling_state": {
     "value": "ENABLED"
   },
-  "authorization_group_config": {
-    "member_id": [
-      "7a1ea55b-7331-43fa-8c70-0b4737aa00c9"
-    ]
-  },
+  "authorization_group_config": {},
   "permission_config": {
     "other_permission": {
       "read": false,
@@ -42,7 +45,7 @@
     },
     "group_permission": [
       {
-        "group_id": "dcd24284-bcfd-493e-91e8-26b766e38301",
+        "group_id": "68bd3d69-e051-45a6-bda9-007e6de371de",
         "permission": {
           "read": true,
           "write": true,

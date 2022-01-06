@@ -11,18 +11,19 @@
     ]
   },
   "alias": [
+    "User-39",
     "BCOUser"
   ],
   "unit_type": "USER",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "BCOUser"
+    "transformation_frame_id": "User-39"
   },
   "scope": {
     "component": [
       "location-18",
       "user",
-      "bcouser"
+      "user-39"
     ]
   },
   "service_config": [

@@ -1,39 +1,42 @@
 {
-  "id": "dcd24284-bcfd-493e-91e8-26b766e38301",
+  "id": "f49fd41a-9211-4dbd-aeab-96803a5c1f5f",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "Admin"
+          "Presence Light Scene Activator Authorization Group"
         ]
       }
     ]
   },
   "alias": [
-    "AuthorizationGroup-23",
-    "AdminGroup"
+    "AuthorizationGroup-29"
   ],
   "unit_type": "AUTHORIZATION_GROUP",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "AuthorizationGroup-23"
+    "transformation_frame_id": "AuthorizationGroup-29"
   },
   "scope": {
     "component": [
       "location-18",
       "authorizationgroup",
-      "authorizationgroup-23"
+      "authorizationgroup-29"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "eeae71d5-01f4-45a1-9631-a6f911767f18"
+      }
     ]
   },
   "enabling_state": {
     "value": "ENABLED"
   },
-  "authorization_group_config": {
-    "member_id": [
-      "7a1ea55b-7331-43fa-8c70-0b4737aa00c9"
-    ]
-  },
+  "authorization_group_config": {},
   "permission_config": {
     "other_permission": {
       "read": false,
@@ -42,7 +45,7 @@
     },
     "group_permission": [
       {
-        "group_id": "dcd24284-bcfd-493e-91e8-26b766e38301",
+        "group_id": "f49fd41a-9211-4dbd-aeab-96803a5c1f5f",
         "permission": {
           "read": true,
           "write": true,

@@ -11,18 +11,19 @@
     ]
   },
   "alias": [
+    "User-37",
     "OpenHABUser"
   ],
   "unit_type": "USER",
   "placement_config": {
     "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
-    "transformation_frame_id": "OpenHABUser"
+    "transformation_frame_id": "User-37"
   },
   "scope": {
     "component": [
       "location-18",
       "user",
-      "openhabuser"
+      "user-37"
     ]
   },
   "service_config": [
