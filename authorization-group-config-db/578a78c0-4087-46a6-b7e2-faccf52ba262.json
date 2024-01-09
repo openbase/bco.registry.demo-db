@@ -1,0 +1,57 @@
+{
+  "id": "578a78c0-4087-46a6-b7e2-faccf52ba262",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Device Notification Authorization Group"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-30"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "1cd2120f-7171-4cbf-80b6-be52ad3a122b",
+    "transformation_frame_id": "AuthorizationGroup-30"
+  },
+  "scope": {
+    "component": [
+      "location-18",
+      "authorizationgroup",
+      "authorizationgroup-30"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "APP_CLASS_ID",
+        "value": "951d1f46-38f0-408e-8a76-2c3fb6766a27"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {},
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "578a78c0-4087-46a6-b7e2-faccf52ba262",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}
